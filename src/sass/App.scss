@@ -1,8 +1,8 @@
 @import './Main.scss';
 
 $primary-color: #17BDA4;
-$secondary-color: #E46B5E;
-$tertiary-color: #E89984;
+// $secondary-color: #E46B5E;
+// $tertiary-color: #E89984;
 $quaternary-color: #1B94A1;
 
 .App {
@@ -19,7 +19,7 @@ $quaternary-color: #1B94A1;
   // background-color: $secondary-color;
   opacity: 1;
   height: 150px;
-  padding: 20px;
+  padding: 1px;
   color: white;
 }
 
@@ -68,5 +68,5 @@ $quaternary-color: #1B94A1;
 }
 
 .footer {
-  background: $secondary-color;
+  background: #444;
 }

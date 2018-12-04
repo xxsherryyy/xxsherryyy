@@ -4,9 +4,9 @@ import { withStyles } from '@material-ui/core/styles';
 // import ReactDOM from 'react-dom';
 
 import About from './components/About.jsx'
-// import App from './App.js'
+import SimpleSlider from './components/SimpleSlider.jsx'
 import Portfolio from './components/Portfolio.jsx';
-// import Contact from './components/Contact.jsx'
+import Contact from './components/Contact.jsx'
 import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles';
 
 
@@ -26,19 +26,8 @@ const theme = createMuiTheme({
     },
   }
 });
-// const styles = theme => ({
-//   button: {
-//     background: "#17BDA4",
-//      padding: 50,
-//      margin: 20,
-
-//     // borderColor: "#17BDA4"
-
-//   }});
 
 
-
-// function Main() {
 class Main extends React.Component {
   render() {
     const { classes } = this.props;
@@ -47,7 +36,7 @@ class Main extends React.Component {
       <div className="App">
      
       
-      <main id="home" style={{height: '100%', flex:1, marginLeft: 5}}>
+      <main id="home" style={{height: '100%', flex:1, }}>
         <MuiThemeProvider theme={theme}>
           {/* <Link to = {'/about/${props.user}'}> */}
 
@@ -58,7 +47,7 @@ class Main extends React.Component {
             </h1>
             <br/>
           <h2>
-            Developer <span class="text-secondary"> X </span> Designer <span class="text-secondary"> X </span> Consultant
+          <span class="text-secondary"> X </span> Full-Stack Web Developer <span class="text-secondary"> X </span>  
             </h2>
 
           <div class="icons">
@@ -85,8 +74,9 @@ class Main extends React.Component {
         <About />
          
          <Portfolio/>
+         <SimpleSlider/>
          
-         {/* <Contact /> */}
+         <Contact />
       </main>
      
   </div>

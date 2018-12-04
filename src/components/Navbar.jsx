@@ -13,30 +13,28 @@ import { withStyles } from '@material-ui/core/styles';
 
 const styles = {
   navBar: {
-    color: "#E46B5E",
+    color: "#444",
     flexGrow: 1,
     zIndex: 10,
-    margin: -20,
-    borderStyle: 'solid',
-    borderWidth: 10,
+    margin: -25,
+    // borderStyle: 'solid',
+    // borderWidth: 10,
     padding: 5,
-    borderColor: "#E46B5E",
-    //  elevation: 50,
-    //  boxshadow: 100     
-    opacity: 1
-
+    // borderColor: "#ffff",
+    elevation: 50,
+    boxshadow: 100,     
+    opacity: 1,
+    justifyContent: 'flex-end',
+flex: 1
   },
 
-
-  menuButton: {
-    zIndex: 4,
-    color: "#E89984",
-    opacity: 1
-
+  toolbarButtons: {
+    marginLeft: 'auto',
   },
+ 
   tool: {
 
-    marginLeft: 650
+    marginLeft: 'auto'
 
   },
   tab: {
@@ -44,7 +42,7 @@ const styles = {
     background: "#1B94A1, #E89984",
     marginLeft: 20,
     marginRight: 20,
-    flex: 1,
+    
     textShadow: 4,
 
 
@@ -59,12 +57,13 @@ function Navbar(props) {
   return (
     <div className={classes.navBar}>
       <AppBar className={classes.menuButton}
-        style={{ position: "static", backgroundColor: '#E89984', background: 'transparancy: 1000' }} >
+        style={{ position: "static", backgroundColor: '#212121' }} >
         <Toolbar >
 
           <IconButton >
             <a className="nav-link" href="/home"> Sherry<span class="text-secondary">X</span>Yang <span className="sr-only"></span></a>
           </IconButton>
+        
           <ul className={classes.tool}>
 
             <IconButton className={classes.tab}><a href="/about"> About</a></IconButton>

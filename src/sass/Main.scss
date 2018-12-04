@@ -1,8 +1,8 @@
 // @import 'Navbar.scss';
 
 $primary-color: #17BDA4;
-$secondary-color: #E46B5E;
-$tertiary-color: #E89984;
+// $secondary-color: #E46B5E;
+// $tertiary-color: #E89984;
 $quaternary-color: #1B94A1;
 
 
@@ -50,7 +50,7 @@ $quaternary-color: #1B94A1;
       .menu .nav-item.show {
         transform: translate3d(0, 0, 0); }
       .menu .nav-item.current > a {
-        color: $tertiary-color; }
+        color: $secondary-color; }
     .menu .nav-link {
       display: inline-block;
       position: relative;
@@ -66,9 +66,7 @@ $quaternary-color: #1B94A1;
   
  
   
-  * {
-    box-sizing: border-box; }
-  
+
   body {
     background: #444;
     color: #fff;
@@ -132,7 +130,7 @@ $quaternary-color: #1B94A1;
     color: #E46B5E;
     padding: .5rem; 
     text-shadow: 2px 2px 3px #000000}
-  
+
   main {
     padding: 4rem;
     min-height: calc(100vh - 60px);}
@@ -245,7 +243,7 @@ $quaternary-color: #1B94A1;
   footer {
     text-align: center;
     padding: 1rem;
-    background: $secondary-color;
+    background: #444;
     color: #fff;
     height: 60px; }
   

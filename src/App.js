@@ -10,7 +10,6 @@ import {BrowserRouter, Route, Switch } from 'react-router-dom';
 
 import Portfolio from './components/Portfolio.jsx';
 import Contact from './components/Contact.jsx'
-import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles';
 
 
 class App extends Component {
