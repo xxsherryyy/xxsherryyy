@@ -1,6 +1,5 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './css/index.css';
-import { withStyles } from '@material-ui/core/styles';
 // import ReactDOM from 'react-dom';
 
 import About from './components/About.jsx'
@@ -74,8 +73,7 @@ class Main extends React.Component {
         <About />
          
          <Portfolio/>
-         <SimpleSlider/>
-         
+                
          <Contact />
       </main>
      

@@ -167,6 +167,13 @@ main#home h1 {
   display: grid;
   grid-template-columns: repeat(1fr); }
 
+#simple-slider {
+    margin: 60px;
+    margin-top: 10px;
+    margin-bottom: 100px;
+    align-self: center;
+}
+
 .portfolioContent {
   align-self: center;
   align-self: center; }

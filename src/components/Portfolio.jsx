@@ -61,8 +61,6 @@ function Portfolio(props) {
                     component="img"
                     alt="Concert Detective"
                     className={classes.media}
-                    height="350"
-                    width="350"
                     image='./images/detective.png'
                     title="Concert Detective"
                   />
@@ -146,9 +144,7 @@ function Portfolio(props) {
                   <div class="mdc-card__action-buttons">
                   <Button size="small" color="primary"><a className="link" href="https://github.com/xxsherryyy/concert-detective" target="_blank" rel="noreferrer noopener" >Code</a></Button>
                   </div>
-                  <div class="mdc-card__action-icons">
-                   
-                  </div>
+
                 </div>
               
 
@@ -163,12 +159,12 @@ function Portfolio(props) {
       <a href="https://dvdkrstndnls.github.io/noplastictoys/" target="_blank">
         <CardMedia
           component="img"
-          alt="Concert Detective"
+          alt="Plast X"
           className={classes.media}
           height="350"
           width="350"
           image='./images/plastx.png'
-          title="Concert Detective"
+          title="Plast X"
         />
        </a> 
       </div>
@@ -176,7 +172,7 @@ function Portfolio(props) {
 
       <CardContent>
         <Typography component="h2"><h2>
-          Concert Detective</h2>
+          PlastX</h2>
         </Typography>
         <Typography component="p">
         <p>PlastX: A Platform for Reusing/Sharing plastic toys so as to keep plastic out of our Oceans. 
@@ -188,11 +184,7 @@ function Portfolio(props) {
     
 
          <div class="mdc-card">
-      <div class="mdc-card__media mdc-card__media--square">
-        <div class="mdc-card__media-content">Rate That Dev</div>
-      </div>
-
-      <div class="mdc-card__actions">
+           <div class="mdc-card__actions">
         <div class="mdc-card__action-buttons">
           <Button size="small" color="primary"><a className="link" href="https://github.com/xxsherryyy/noplastictoys" target="_blank" rel="noreferrer noopener" >Code</a></Button>
         </div>
@@ -207,6 +199,7 @@ function Portfolio(props) {
         </Grid >
       </MuiThemeProvider>
       </div>
+      
     </div>
   )
 }
